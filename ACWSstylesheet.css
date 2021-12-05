@@ -106,3 +106,28 @@ ul{
   box-shadow:0 0 10px white;
   border-color:white;
 }
+
+.menu_link{
+  background-color:#10101a;
+  color:white;
+  border:1px solid white;
+  border-radius: .5em;
+  box-shadow:0 0 5px white;
+  display:inline;
+  padding:.5em;
+  margin-left:2em;
+  transition:padding .5s, box-shadow .5s,color .5s;
+}
+.menu_link:hover{
+  color:#ffff66;
+  padding:.75em;
+  box-shadow:0 0 10px white;
+}
+
+.menu_container{
+  font-weight:normal;
+  text-decoration:none;
+}
+.menu_container:hover{
+  transform: scale(2,2);
+}
