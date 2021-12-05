@@ -1,0 +1,102 @@
+body{
+  background: #0f0f23;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #cccccc;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14pt;
+  min-width: 60em;
+}
+
+a{
+  color: #ffff66;
+  transition: color 1s, text-shadow 1s;
+  text-shadow: 0 0 2.5px #ffff66;
+}
+a:hover{
+  text-shadow: 0 0 7.5px #ffff66;
+}
+
+h1{
+  font-size:42pt;
+  text-decoration: none;
+  color: #00cc00;
+  text-shadow: 0 0 4px #00cc00;
+  border-radius: 1px;
+  border-bottom:2px solid #666666;
+  box-shadow: 0 5px 5px -6px white;
+  padding-bottom:5px;
+  margin-top:5px;
+}
+
+div{
+    display: inline-block;
+    width: 320px;
+    vertical-align: top;
+}
+
+ul{
+  background: transparent;
+  color: inherit;
+  border: 1px solid #666666;
+  background: #10101a;
+  padding: 0 2px;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  width:10em;
+  height:200px;
+  overflow:auto;
+}
+
+#depths{
+  display:none;
+}
+
+.dec{
+  color: #c70d00;
+  font-style: normal;
+  text-shadow: 0 0 2.5px #c70d00;
+}
+
+.inc{
+  color: #ffffff;
+  font-style: normal;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+.total{
+  color: #009900;
+  font-style: normal;
+  text-shadow: 0 0 5px #009900;
+}
+
+.html{
+  color:#db3300;
+  font-weight: lighter;
+  text-shadow:0 0 2.5px #db3300;
+}
+
+.text{
+  border: 1px solid #666666;
+  background: #10101a;
+  padding:5px;
+  margin-top:2em;
+}
+
+.challenge{
+  border:2px solid #666666;
+  float:right;
+  font-size:.5em;
+  padding: 5px;
+  margin-top:.25em;
+  transition: padding .5s, box-shadow 1s, border-color 1s;
+  border-radius: 1em;
+  background-color: #10101a;
+}
+.challenge:hover{
+  outline: none;
+  padding:8px;
+  box-shadow:0 0 10px white;
+  border-color:white;
+}
