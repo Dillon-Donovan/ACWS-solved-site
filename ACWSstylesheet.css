@@ -49,7 +49,7 @@ ul{
   overflow:auto;
 }
 
-#depths{
+#position,#depths{
   display:none;
 }
 
@@ -63,6 +63,12 @@ ul{
   color: #ffffff;
   font-style: normal;
   text-shadow: 0 0 5px #ffffff;
+}
+
+.equal{
+  color: #fff6d6;
+  font-style: normal;
+  text-shadow: 0 0 5px #fff6d6;
 }
 
 .total{
